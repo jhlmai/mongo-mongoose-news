@@ -144,4 +144,7 @@ app.get("/scrape", function (req, res) {
     });
 
 
-    // Receiving error regarding "find", unsure of the reason.
+    // Receiving error:
+    // TypeError: Cannot read property 'find' of undefined
+    // at /Users/kathymai/Desktop/Code/mongo-mongoose-news/server.js:97:20
+    // unsure how to fix.
